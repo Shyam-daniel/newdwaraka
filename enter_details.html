@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="enter_details.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<title>Invoice</title>
+		
+	</head>
+	
+<body>
+	<div class="nav-bar">
+		
+		<img src="images/Dwaraka Logo-02.png"><br><br>
+		
+		<form action="enter_detailsAction.jsp" method="post">
+		
+			Customer Name:<br><input type="text" name="cust_name"><br>
+			Address:<br><input type="text" name="address"><br>
+			Mobile Number:<br><input type="text" name="mob_no"><br>
+			GSTIN Number:<br><input type="text" name="gst"><br>
+			Customer Account Number:<br><input type="text" name="cust_acc_no"><br>
+			Username:<br><input type="text" name="username"><br>
+			Billing Date:<br><input type="text" name="bill_date"><br>
+			Due Date:<br><input type="text" name="due_date"><br>
+			
+			Plan Name: <br><input type="text" name="plan_name"><br>
+			<!-- <select>
+				<option>UL 100MBPS</option>
+				<option>UL 100MBPS</option>
+				<option>UL 100MBPS</option>
+			</select><br> -->
+			
+			Plan Duration:<br> <input type="text" name="plan_duration"><br>
+			<!-- <select>
+				<option>1 month</option>
+				<option>3 month</option>
+				<option>6 month</option>
+			</select><br> -->
+		
+			Credit Terms:<br> <input type="text" name="crd_terms"><br>
+			<!-- <select>
+				<option>Phone pay</option>
+				<option>Google Pay</option>
+				<option>Paytm</option>
+			</select><br> -->
+			Installation Charges<br><input type="text" name="install_char"><br>
+			Public ID<br><input type="text" name="pid_char"><br>
+			OTT Charges<br><input type="text" name="ott_char"><br>
+			
+			<input type="submit" value="SUBMIT">
+		
+		</form>
+	</div>
+	
+	<div class="print-layout">
+		
+		<div class="invoice">
+			
+			<img src="images/bill-header.jpg" class="header">
+			
+			<table border=1>
+				
+				<tr>
+					<th>INVOICE </th>
+					<th></th>
+				</tr>
+				
+				<tr>
+					<td>Invoice from: </td>
+					<td>Invoice to: </td>
+				</tr>
+				
+				<tr>
+					<td>DWARAKA CABLE AND INTERNET SERVICES</td>
+					<td>DWARAKA CABLE AND INTERNET SERVICES </td>
+				</tr>
+				
+				<tr>
+					<td>Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090</td>
+					<td>Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090Chikkabanavara, Bengaluru - 560090</td>
+				</tr>
+				
+				<tr>
+					<td>DWARAKA CABLE AND INTERNET SERVICES</td>
+					<td>DWARAKA CABLE AND INTERNET SERVICES </td>
+				</tr>
+				
+				<tr>
+					<td>DWARAKA CABLE AND INTERNET SERVICES</td>
+					<td>DWARAKA CABLE AND INTERNET SERVICES </td>
+				</tr>
+				
+				</table>
+				
+				<table border=1>
+				
+				
+				<tr>
+					<td>Customer Account No.:</td>
+					<td>Billing Date:</td>
+				</tr>
+				
+				<tr>
+					<td>Customer Account No.:</td>
+					<td>Billing Date:</td>
+				</tr>
+				
+				<tr>
+					<td>Invoice No.:</td>
+					<td>Due Date:</td>
+				</tr>
+				
+				<tr>
+					<td>Username</td>
+					<td></td>
+				</tr>
+				
+				
+				</table>
+				
+				<table border=1>
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+					
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+					
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+				
+			</table>
+			
+			<table border=1>
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+					
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+					
+					<tr>
+						<td>Description</td>
+						<td>quantity</td>
+						<td>unit cost</td>
+						<td>total</td>
+					</tr>
+				
+			</table>
+		
+		</div>
+		
+	
+	
+	</div>
+
+</body>
+</html>
