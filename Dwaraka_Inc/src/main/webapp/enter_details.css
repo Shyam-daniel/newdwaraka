@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Merriweather Sans', sans-serif;
+	
+}
+
+body{
+	background-color: white;
+	font-size: 8px;
+		
+		
+}
+
+.nav-bar{
+	width: 300px;
+	height: 1100px;
+	background-color: #0063b4;
+	font-size: 2em;
+	line-height: 25px;
+	padding-left: 30px;
+	color: white;
+	float: left;
+}
+
+img{
+	width: 80%;
+	padding-top: 30px;
+}
+
+input[type=text]{
+	width: 80%;
+	border: none;
+	border-bottom: 1.5px solid white;
+	background-color: transparent;
+	margin-bottom: 15px;
+	color: white;
+	font-weight: 300;
+}
+
+input[type=submit]{
+	width: 80%;
+	border: none;
+	background-color: white;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 10px;
+	color: #0063b4;
+}
+
+
+.print-layout{
+	width: 900px;
+	height: 1050px;
+	background-color: lightyellow;
+	margin-left: 330px;
+	padding-top: 50px;
+}
+
+.invoice{
+	width: 80%;
+	height: 1000px;
+	background-color: white;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+.header{
+	width: 100%;
+	margin-top: -30px;
+	box-radius: 20px;
+}
+
+
+table{
+	width: 95%;
+	font-size:1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+tr{
+	height: 20px;
+}
